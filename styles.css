@@ -1,0 +1,594 @@
+@font-face {
+    font-family: "Ranchers";
+    src: url("assets/fonts/Ranchers-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url("assets/fonts/FiraSans-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+
+    align-items: center;
+
+    width: 100%;
+    height: 48px;
+
+    padding: 0 128px;
+
+    color: white;
+    background: linear-gradient(
+        90deg,
+        hotpink,
+        cornflowerblue
+    );
+
+    font-family: "Ranchers", cursive;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+
+    width: 100%;
+
+    padding: 16px 128px;
+
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+}
+
+#dicks {
+    display: flex;
+
+    gap: 8px;
+
+    background: linear-gradient(
+        90deg,
+        hotpink,
+        cornflowerblue
+    );
+
+    padding: 4px;
+    border-radius: 16px;
+}
+
+#judyHopps {
+    display: block;
+    width: 100%;
+    max-width: 122px;
+    height: auto;
+    border-radius: 16px;
+}
+
+#dickForm {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    gap: 8px;
+
+    background-color: transparent;
+}
+
+.dick-attributes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+#dickForm input,
+#dickForm select {
+    padding: 8px;
+
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+
+    border: none;
+    border-radius: 16px;
+}
+
+#dickForm button {
+    padding: 8px;
+
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+
+    border: none;
+    border-radius: 16px;
+
+    color: black;
+
+    cursor: pointer;
+}
+
+#previews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.dick-preview-item {
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    gap: 6px;
+}
+
+.dick-preview-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.dick-preview-actions img {
+    width: 24px;
+    height: 24px;
+}
+
+.dick-preview-actions button {
+    cursor: pointer;
+}
+
+#ratings {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+}
+
+.rating {
+    display: grid;
+    align-content: start;
+    gap: 12px;
+    min-width: 0;
+    padding: 16px;
+    border: 4px solid transparent;
+    border-radius: 16px;
+    background:
+        linear-gradient(white, white) padding-box,
+        linear-gradient(90deg, hotpink, cornflowerblue) border-box;
+}
+
+.rating-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.rating h2 {
+    font-size: 16px;
+    overflow-wrap: anywhere;
+    line-height: 1.3;
+}
+
+.rating-score {
+    flex: 0 0 auto;
+    color: #26766e;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.rating-meter {
+    height: 7px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #e8ebee;
+}
+
+.rating-meter span {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, hotpink, cornflowerblue);
+}
+
+.rating-facts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.rating-facts div {
+    min-width: 0;
+    padding: 8px;
+    border-radius: 4px;
+    background: #f3f5f7;
+}
+
+.rating-facts dt,
+.rating-notes h3 {
+    color: #626b75;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.rating-facts dd {
+    margin-top: 3px;
+    overflow-wrap: anywhere;
+    color: #20252b;
+    font-weight: bold;
+}
+
+.rating-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.rating-summary p {
+    padding: 5px 8px;
+    border-radius: 4px;
+    background: #edf5f4;
+    color: #26766e;
+    font-size: 12px;
+}
+
+.rating-description {
+    padding-left: 10px;
+    border-left: 2px solid cornflowerblue;
+    color: #404850;
+    line-height: 1.45;
+}
+
+.rating-notes {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.rating-notes ul {
+    display: grid;
+    gap: 4px;
+    margin-top: 5px;
+    list-style: none;
+}
+
+.rating-notes li {
+    overflow-wrap: anywhere;
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+.rating-advantages li {
+    color: #26766e;
+}
+
+.rating-disadvantages li {
+    color: #a33b4c;
+}
+
+.dick-preview-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    background: linear-gradient(
+        90deg,
+        hotpink,
+        cornflowerblue
+    );
+    border-radius: 16px;
+}
+
+.dick-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 96px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.dick-preview p {
+    overflow-wrap: anywhere;
+    text-align: center;
+}
+
+#results {
+    position: relative;
+
+    width: 100%;
+
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    color: gray;
+    text-align: right;
+
+    z-index: 1;
+}
+
+#results-table {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#results-table td {
+    display: flex;
+    justify-content: right;
+    align-items: top;
+
+    height: 25px;
+    border-top: gray 1px solid;
+
+    z-index: 1;
+}
+
+#resultsDicks {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.can {
+    position: relative;
+    display: flex;
+    flex: 0 0 165px;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 324.5px;
+    margin-bottom: 0;
+    border: 1px solid #85898c;
+    border-radius: 10px 10px 14px 14px;
+    background: linear-gradient(90deg, #85898c, #e4e6e7 22%, #b8bdc0 76%, #777c7f);
+    box-shadow: inset 0 0 8px #5558;
+}
+
+.can::before {
+    position: absolute;
+    top: -5px;
+    width: 84%;
+    height: 7px;
+    border: 1px solid #777c7f;
+    border-radius: 50%;
+    background: linear-gradient(#f4f5f5, #9da2a5);
+    content: "";
+}
+
+.bottle {
+    position: relative;
+    display: flex;
+    flex: 0 0 145px;
+    justify-content: center;
+    width: 145px;
+    height: 525px;
+    margin-bottom: 0;
+    filter: drop-shadow(0 1px 2px #5555);
+}
+
+.bottle-cap {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 44px;
+    height: 29px;
+    border: 1px solid #347e79;
+    border-radius: 5px 5px 3px 3px;
+    background: repeating-linear-gradient(90deg, #267f78 0 4px, #49a69c 4px 7px);
+}
+
+.bottle-body {
+    position: absolute;
+    inset: 24px 12px 0;
+    overflow: hidden;
+    clip-path: polygon(35% 0, 65% 0, 65% 12%, 76% 12%, 88% 19%, 95% 27%, 95% 100%, 5% 100%, 5% 27%, 12% 19%, 24% 12%, 35% 12%);
+    background: linear-gradient(90deg, #79c4bdcc, #ecfffcdd 20%, #b8e4dfd9 58%, #68b7aecc);
+    box-shadow: inset 0 0 0 2px #4f9e96;
+}
+
+.bottle-label {
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    min-height: 42px;
+    padding: 4px;
+    border-top: 1px solid #79b7ae;
+    border-bottom: 1px solid #79b7ae;
+    background: linear-gradient(90deg, #f8ffff, #d9f3ef, #f8ffff);
+    color: #26766e;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.can-label {
+    width: 100%;
+    padding: 10px 3px;
+    background: linear-gradient(90deg, #a7192d, #e33b4e, #a7192d);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.dick-info {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    background-color: whitesmoke;
+    
+    width: 100%;
+    height: 24px;
+
+    border-radius: 999px;
+    border: 1px gray solid;
+
+    margin-bottom: 15px;
+}
+
+#buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#buttons button, #clear, #addCan, #download, #addBottle, #addRandomDick, .dick-preview-actions button {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    border-radius: 999px;
+    border: none;
+    background: linear-gradient(
+        90deg,
+        hotpink,
+        cornflowerblue
+    );
+
+    transition: all 0.3s ease;
+}
+
+#buttons button:hover, #clear:hover, #addCan:hover, #download:hover, #addBottle:hover, #addRandomDick:hover, .dick-preview-actions button:hover {
+    filter: brightness(1.1) contrast(0.8);
+    transform: translateY(-2px);
+}
+
+
+.buttons #addCan {
+    width: auto;
+    padding: 0 16px;
+    white-space: nowrap;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.buttons button:disabled,
+#dickForm button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 48px;
+
+    padding: 0 128px;
+
+    color: white;
+    background: linear-gradient(
+        90deg,
+        hotpink,
+        cornflowerblue
+    );
+
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    header {
+        height: auto;
+        min-height: 48px;
+        padding: 8px 16px;
+    }
+
+    header a h1 {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    main {
+        padding: 16px;
+    }
+
+    #results {
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+    }
+
+    .rating-facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    #buttons button, #clear, #addCan, #download, #addBottle, #addRandomDick, .dick-preview-actions button {
+        height: 40px;
+    }
+
+    #buttons button, #clear, #download, #addBottle, #addRandomDick, .dick-preview-actions button {
+        width: 40px;
+    }
+
+    #dickForm input,
+    #dickForm select,
+    #dickForm button {
+        min-height: 44px;
+    }
+
+    footer {
+        height: auto;
+        min-height: 48px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 420px) {
+    #judyHopps {
+        display: none;
+    }
+
+    .rating-notes {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}

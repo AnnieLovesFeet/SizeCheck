@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SizeCheck</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"><h1>SizeCheck, v. 1.0, by AnnieLovesFeet</h1></a>
+        </header>
+
+        <main>
+            <div id="dicks">
+                <form id="dickForm">
+                    <input type="text" name="name" placeholder="Wpisz nazwę..." required>
+                    <input type="number" name="size" placeholder="Wpisz rozmiar..." min="1" required>
+                    
+                    <div class="dick-attributes">
+                        <select id="dick-color" name="color" aria-label="Color">
+                            <option value="white">Biały</option>
+                            <option value="latino">Latynoski</option>
+                            <option value="asian">Azjatycki</option>
+                            <option value="black">Czarny</option>
+                        </select>
+
+                        <select id="dick-origin" name="origin" aria-label="Pochodzenie" required>
+                            <option value="" selected disabled>Wybierz kraj...</option>
+                        </select>
+                    </div>
+
+                    <select id="dick-shape" name="shape" aria-label="Shape">
+                        <option value="normal">Normalny</option>
+                        <option value="foreskin">Napletek</option>
+                        <option value="phimosis">Stulejka</option>
+                    </select>
+
+                    <button type="submit" >DODAJ DO PORÓWNANIA</button>
+                    <button id="cancelDickEdit" type="button" hidden>ANULUJ EDYCJĘ</button>
+                </form>
+
+                <img src="assets/judy-hopps.jpg" alt="Judy Hopps" id="judyHopps">
+            </div>
+
+            <div class="buttons">
+                <button id="addCan">
+                    DODAJ PUSZKĘ DO PORÓWNANIA
+                </button>
+                <button id="addBottle" type="button" aria-label="Dodaj butelkę do porównania">
+                    <img src="assets/icons/water_bottle.svg" alt="">
+                </button>
+                <button id="addRandomDick" type="button" aria-label="Dodaj losowy pomiar">
+                    <img src="assets/icons/shuffle.svg" alt="random icon">
+                </button>
+                <button id="clear">
+                    <img src="assets/icons/delete.svg" alt="clear icon">
+                </button>
+                <button id="download">
+                    <img src="assets/icons/download.svg" alt="download icon">
+                </button>
+            </div>
+            
+            <div id="previews"></div>
+
+            <div id="results"><div id="resultsDicks"></div></div>
+
+            <div id="ratings"></div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 SizeCheck. Wszelkie prawa zastrzeżone.<br>Zaprojektowane i stworzone przez: @AnnieLovesFeet</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js" crossorigin="anonymous"></script>
+        <script type="module" src="scripts/main.js"></script>
+    </body>
+</html>

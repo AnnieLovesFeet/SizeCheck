@@ -1,0 +1,998 @@
+{
+	"countries": [
+		{
+			"name": "Sudan",
+			"averageErectLengthCm": 17.95,
+			"averageErectLengthIn": 7.1,
+			"code": "SD",
+			"namePl": "Sudan"
+		},
+		{
+			"name": "DR Congo",
+			"averageErectLengthCm": 17.93,
+			"averageErectLengthIn": 7.1,
+			"code": "CD",
+			"namePl": "Demokratyczna Republika Konga"
+		},
+		{
+			"name": "Ecuador",
+			"averageErectLengthCm": 17.59,
+			"averageErectLengthIn": 6.9,
+			"code": "EC",
+			"namePl": "Ekwador"
+		},
+		{
+			"name": "Republic of the Congo",
+			"averageErectLengthCm": 17.33,
+			"averageErectLengthIn": 6.8,
+			"code": "CG",
+			"namePl": "Republika Konga"
+		},
+		{
+			"name": "Ghana",
+			"averageErectLengthCm": 17.31,
+			"averageErectLengthIn": 6.8,
+			"code": "GH",
+			"namePl": "Ghana"
+		},
+		{
+			"name": "Nigeria",
+			"averageErectLengthCm": 17,
+			"averageErectLengthIn": 6.7,
+			"code": "NG",
+			"namePl": "Nigeria"
+		},
+		{
+			"name": "Venezuela",
+			"averageErectLengthCm": 16.93,
+			"averageErectLengthIn": 6.7,
+			"code": "VE",
+			"namePl": "Wenezuela"
+		},
+		{
+			"name": "Lebanon",
+			"averageErectLengthCm": 16.82,
+			"averageErectLengthIn": 6.6,
+			"code": "LB",
+			"namePl": "Liban"
+		},
+		{
+			"name": "Colombia",
+			"averageErectLengthCm": 16.75,
+			"averageErectLengthIn": 6.6,
+			"code": "CO",
+			"namePl": "Kolumbia"
+		},
+		{
+			"name": "Cameroon",
+			"averageErectLengthCm": 16.65,
+			"averageErectLengthIn": 6.6,
+			"code": "CM",
+			"namePl": "Kamerun"
+		},
+		{
+			"name": "Jamaica",
+			"averageErectLengthCm": 16.3,
+			"averageErectLengthIn": 6.4,
+			"code": "JM",
+			"namePl": "Jamajka"
+		},
+		{
+			"name": "Kenya",
+			"averageErectLengthCm": 16.28,
+			"averageErectLengthIn": 6.4,
+			"code": "KE",
+			"namePl": "Kenia"
+		},
+		{
+			"name": "Dominican Republic",
+			"averageErectLengthCm": 15.99,
+			"averageErectLengthIn": 6.3,
+			"code": "DO",
+			"namePl": "Dominikana"
+		},
+		{
+			"name": "Senegal",
+			"averageErectLengthCm": 15.89,
+			"averageErectLengthIn": 6.3,
+			"code": "SN",
+			"namePl": "Senegal"
+		},
+		{
+			"name": "Cuba",
+			"averageErectLengthCm": 15.87,
+			"averageErectLengthIn": 6.2,
+			"code": "CU",
+			"namePl": "Kuba"
+		},
+		{
+			"name": "New Zealand",
+			"averageErectLengthCm": 15.79,
+			"averageErectLengthIn": 6.2,
+			"code": "NZ",
+			"namePl": "Nowa Zelandia"
+		},
+		{
+			"name": "Zambia",
+			"averageErectLengthCm": 15.78,
+			"averageErectLengthIn": 6.2,
+			"code": "ZM",
+			"namePl": "Zambia"
+		},
+		{
+			"name": "Belize",
+			"averageErectLengthCm": 15.75,
+			"averageErectLengthIn": 6.2,
+			"code": "BZ",
+			"namePl": "Belize"
+		},
+		{
+			"name": "Angola",
+			"averageErectLengthCm": 15.73,
+			"averageErectLengthIn": 6.2,
+			"code": "AO",
+			"namePl": "Angola"
+		},
+		{
+			"name": "Brazil",
+			"averageErectLengthCm": 15.7,
+			"averageErectLengthIn": 6.2,
+			"code": "BR",
+			"namePl": "Brazylia"
+		},
+		{
+			"name": "Australia",
+			"averageErectLengthCm": 15.7,
+			"averageErectLengthIn": 6.2,
+			"code": "AU",
+			"namePl": "Australia"
+		},
+		{
+			"name": "Zimbabwe",
+			"averageErectLengthCm": 15.68,
+			"averageErectLengthIn": 6.2,
+			"code": "ZW",
+			"namePl": "Zimbabwe"
+		},
+		{
+			"name": "Haiti",
+			"averageErectLengthCm": 15.67,
+			"averageErectLengthIn": 6.2,
+			"code": "HT",
+			"namePl": "Haiti"
+		},
+		{
+			"name": "Netherlands",
+			"averageErectLengthCm": 15.6,
+			"averageErectLengthIn": 6.1,
+			"code": "NL",
+			"namePl": "Holandia"
+		},
+		{
+			"name": "Paraguay",
+			"averageErectLengthCm": 15.53,
+			"averageErectLengthIn": 6.1,
+			"code": "PY",
+			"namePl": "Paragwaj"
+		},
+		{
+			"name": "Panama",
+			"averageErectLengthCm": 15.49,
+			"averageErectLengthIn": 6.1,
+			"code": "PA",
+			"namePl": "Panama"
+		},
+		{
+			"name": "Poland",
+			"averageErectLengthCm": 15.41,
+			"averageErectLengthIn": 6.1,
+			"code": "PL",
+			"namePl": "Polska"
+		},
+		{
+			"name": "Chad",
+			"averageErectLengthCm": 15.39,
+			"averageErectLengthIn": 6.1,
+			"code": "TD",
+			"namePl": "Czad"
+		},
+		{
+			"name": "Sweden",
+			"averageErectLengthCm": 15.36,
+			"averageErectLengthIn": 6,
+			"code": "SE",
+			"namePl": "Szwecja"
+		},
+		{
+			"name": "Central African Republic",
+			"averageErectLengthCm": 15.33,
+			"averageErectLengthIn": 6,
+			"code": "CF",
+			"namePl": "Republika Środkowoafrykańska"
+		},
+		{
+			"name": "South Africa",
+			"averageErectLengthCm": 15.29,
+			"averageErectLengthIn": 6,
+			"code": "ZA",
+			"namePl": "Republika Południowej Afryki"
+		},
+		{
+			"name": "Bosnia and Herzegovina",
+			"averageErectLengthCm": 15.27,
+			"averageErectLengthIn": 6,
+			"code": "BA",
+			"namePl": "Bośnia i Hercegowina"
+		},
+		{
+			"name": "Ivory Coast",
+			"averageErectLengthCm": 15.22,
+			"averageErectLengthIn": 6,
+			"code": "CI",
+			"namePl": "Wybrzeże Kości Słoniowej"
+		},
+		{
+			"name": "Burkina Faso",
+			"averageErectLengthCm": 15.19,
+			"averageErectLengthIn": 6,
+			"code": "HV",
+			"namePl": "Burkina Faso"
+		},
+		{
+			"name": "Belgium",
+			"averageErectLengthCm": 15.14,
+			"averageErectLengthIn": 6,
+			"code": "BE",
+			"namePl": "Belgia"
+		},
+		{
+			"name": "Portugal",
+			"averageErectLengthCm": 15.14,
+			"averageErectLengthIn": 6,
+			"code": "PT",
+			"namePl": "Portugalia"
+		},
+		{
+			"name": "Palestine",
+			"averageErectLengthCm": 15.08,
+			"averageErectLengthIn": 5.9,
+			"code": "PS",
+			"namePl": "Terytoria Palestyńskie"
+		},
+		{
+			"name": "Peru",
+			"averageErectLengthCm": 15.07,
+			"averageErectLengthIn": 5.9,
+			"code": "PE",
+			"namePl": "Peru"
+		},
+		{
+			"name": "Denmark",
+			"averageErectLengthCm": 15.07,
+			"averageErectLengthIn": 5.9,
+			"code": "DK",
+			"namePl": "Dania"
+		},
+		{
+			"name": "Gambia",
+			"averageErectLengthCm": 15.07,
+			"averageErectLengthIn": 5.9,
+			"code": "GM",
+			"namePl": "Gambia"
+		},
+		{
+			"name": "Argentina",
+			"averageErectLengthCm": 14.88,
+			"averageErectLengthIn": 5.9,
+			"code": "AR",
+			"namePl": "Argentyna"
+		},
+		{
+			"name": "Serbia",
+			"averageErectLengthCm": 14.78,
+			"averageErectLengthIn": 5.8,
+			"code": "YU",
+			"namePl": "Serbia"
+		},
+		{
+			"name": "Croatia",
+			"averageErectLengthCm": 14.77,
+			"averageErectLengthIn": 5.8,
+			"code": "HR",
+			"namePl": "Chorwacja"
+		},
+		{
+			"name": "Guyana",
+			"averageErectLengthCm": 14.75,
+			"averageErectLengthIn": 5.8,
+			"code": "GY",
+			"namePl": "Gujana"
+		},
+		{
+			"name": "Bolivia",
+			"averageErectLengthCm": 14.7,
+			"averageErectLengthIn": 5.8,
+			"code": "BO",
+			"namePl": "Boliwia"
+		},
+		{
+			"name": "Austria",
+			"averageErectLengthCm": 14.69,
+			"averageErectLengthIn": 5.8,
+			"code": "AT",
+			"namePl": "Austria"
+		},
+		{
+			"name": "Latvia",
+			"averageErectLengthCm": 14.69,
+			"averageErectLengthIn": 5.8,
+			"code": "LV",
+			"namePl": "Łotwa"
+		},
+		{
+			"name": "Hungary",
+			"averageErectLengthCm": 14.68,
+			"averageErectLengthIn": 5.8,
+			"code": "HU",
+			"namePl": "Węgry"
+		},
+		{
+			"name": "Uruguay",
+			"averageErectLengthCm": 14.67,
+			"averageErectLengthIn": 5.8,
+			"code": "UY",
+			"namePl": "Urugwaj"
+		},
+		{
+			"name": "Bulgaria",
+			"averageErectLengthCm": 14.66,
+			"averageErectLengthIn": 5.8,
+			"code": "BG",
+			"namePl": "Bułgaria"
+		},
+		{
+			"name": "Tunisia",
+			"averageErectLengthCm": 14.61,
+			"averageErectLengthIn": 5.8,
+			"code": "TN",
+			"namePl": "Tunezja"
+		},
+		{
+			"name": "Chile",
+			"averageErectLengthCm": 14.59,
+			"averageErectLengthIn": 5.7,
+			"code": "CL",
+			"namePl": "Chile"
+		},
+		{
+			"name": "Iceland",
+			"averageErectLengthCm": 14.56,
+			"averageErectLengthIn": 5.7,
+			"code": "IS",
+			"namePl": "Islandia"
+		},
+		{
+			"name": "Lithuania",
+			"averageErectLengthCm": 14.55,
+			"averageErectLengthIn": 5.7,
+			"code": "LT",
+			"namePl": "Litwa"
+		},
+		{
+			"name": "France",
+			"averageErectLengthCm": 14.5,
+			"averageErectLengthIn": 5.7,
+			"code": "FX",
+			"namePl": "Francja"
+		},
+		{
+			"name": "Algeria",
+			"averageErectLengthCm": 14.49,
+			"averageErectLengthIn": 5.7,
+			"code": "DZ",
+			"namePl": "Algieria"
+		},
+		{
+			"name": "Germany",
+			"averageErectLengthCm": 14.48,
+			"averageErectLengthIn": 5.7,
+			"code": "DE",
+			"namePl": "Niemcy"
+		},
+		{
+			"name": "Eritrea",
+			"averageErectLengthCm": 14.39,
+			"averageErectLengthIn": 5.7,
+			"code": "ER",
+			"namePl": "Erytrea"
+		},
+		{
+			"name": "Norway",
+			"averageErectLengthCm": 14.34,
+			"averageErectLengthIn": 5.6,
+			"code": "NO",
+			"namePl": "Norwegia"
+		},
+		{
+			"name": "United Kingdom",
+			"averageErectLengthCm": 14.3,
+			"averageErectLengthIn": 5.6,
+			"code": "UK",
+			"namePl": "Wielka Brytania"
+		},
+		{
+			"name": "Switzerland",
+			"averageErectLengthCm": 14.25,
+			"averageErectLengthIn": 5.6,
+			"code": "CH",
+			"namePl": "Szwajcaria"
+		},
+		{
+			"name": "Ukraine",
+			"averageErectLengthCm": 14.2,
+			"averageErectLengthIn": 5.6,
+			"code": "UA",
+			"namePl": "Ukraina"
+		},
+		{
+			"name": "Slovakia",
+			"averageErectLengthCm": 14.19,
+			"averageErectLengthIn": 5.6,
+			"code": "SK",
+			"namePl": "Słowacja"
+		},
+		{
+			"name": "Albania",
+			"averageErectLengthCm": 14.19,
+			"averageErectLengthIn": 5.6,
+			"code": "AL",
+			"namePl": "Albania"
+		},
+		{
+			"name": "Kiribati",
+			"averageErectLengthCm": 14.19,
+			"averageErectLengthIn": 5.6,
+			"code": "KI",
+			"namePl": "Kiribati"
+		},
+		{
+			"name": "Czechia",
+			"averageErectLengthCm": 14.17,
+			"averageErectLengthIn": 5.6,
+			"code": "CZ",
+			"namePl": "Czechy"
+		},
+		{
+			"name": "Russia",
+			"averageErectLengthCm": 14.16,
+			"averageErectLengthIn": 5.6,
+			"code": "SU",
+			"namePl": "Rosja"
+		},
+		{
+			"name": "United States",
+			"averageErectLengthCm": 14.15,
+			"averageErectLengthIn": 5.6,
+			"code": "US",
+			"namePl": "Stany Zjednoczone"
+		},
+		{
+			"name": "Mexico",
+			"averageErectLengthCm": 14.09,
+			"averageErectLengthIn": 5.5,
+			"code": "MX",
+			"namePl": "Meksyk"
+		},
+		{
+			"name": "Cape Verde",
+			"averageErectLengthCm": 14.05,
+			"averageErectLengthIn": 5.5,
+			"code": "CV",
+			"namePl": "Republika Zielonego Przylądka"
+		},
+		{
+			"name": "Slovenia",
+			"averageErectLengthCm": 14.01,
+			"averageErectLengthIn": 5.5,
+			"code": "SI",
+			"namePl": "Słowenia"
+		},
+		{
+			"name": "Belarus",
+			"averageErectLengthCm": 13.98,
+			"averageErectLengthIn": 5.5,
+			"code": "BY",
+			"namePl": "Białoruś"
+		},
+		{
+			"name": "North Macedonia",
+			"averageErectLengthCm": 13.98,
+			"averageErectLengthIn": 5.5,
+			"code": "MK",
+			"namePl": "Macedonia Północna"
+		},
+		{
+			"name": "Canada",
+			"averageErectLengthCm": 13.92,
+			"averageErectLengthIn": 5.5,
+			"code": "CA",
+			"namePl": "Kanada"
+		},
+		{
+			"name": "Georgia",
+			"averageErectLengthCm": 13.87,
+			"averageErectLengthIn": 5.5,
+			"code": "GE",
+			"namePl": "Gruzja"
+		},
+		{
+			"name": "Greenland",
+			"averageErectLengthCm": 13.87,
+			"averageErectLengthIn": 5.5,
+			"code": "GL",
+			"namePl": "Grenlandia"
+		},
+		{
+			"name": "Morocco",
+			"averageErectLengthCm": 13.86,
+			"averageErectLengthIn": 5.5,
+			"code": "MA",
+			"namePl": "Maroko"
+		},
+		{
+			"name": "Egypt",
+			"averageErectLengthCm": 13.85,
+			"averageErectLengthIn": 5.5,
+			"code": "EG",
+			"namePl": "Egipt"
+		},
+		{
+			"name": "Luxembourg",
+			"averageErectLengthCm": 13.82,
+			"averageErectLengthIn": 5.4,
+			"code": "LU",
+			"namePl": "Luksemburg"
+		},
+		{
+			"name": "Costa Rica",
+			"averageErectLengthCm": 13.81,
+			"averageErectLengthIn": 5.4,
+			"code": "CR",
+			"namePl": "Kostaryka"
+		},
+		{
+			"name": "Estonia",
+			"averageErectLengthCm": 13.78,
+			"averageErectLengthIn": 5.4,
+			"code": "EE",
+			"namePl": "Estonia"
+		},
+		{
+			"name": "Moldova",
+			"averageErectLengthCm": 13.76,
+			"averageErectLengthIn": 5.4,
+			"code": "MD",
+			"namePl": "Mołdawia"
+		},
+		{
+			"name": "Libya",
+			"averageErectLengthCm": 13.74,
+			"averageErectLengthIn": 5.4,
+			"code": "LY",
+			"namePl": "Libia"
+		},
+		{
+			"name": "Azerbaijan",
+			"averageErectLengthCm": 13.72,
+			"averageErectLengthIn": 5.4,
+			"code": "AZ",
+			"namePl": "Azerbejdżan"
+		},
+		{
+			"name": "Turkey",
+			"averageErectLengthCm": 13.7,
+			"averageErectLengthIn": 5.4,
+			"code": "TR",
+			"namePl": "Turcja"
+		},
+		{
+			"name": "Afghanistan",
+			"averageErectLengthCm": 13.69,
+			"averageErectLengthIn": 5.4,
+			"code": "AF",
+			"namePl": "Afganistan"
+		},
+		{
+			"name": "Papua New Guinea",
+			"averageErectLengthCm": 13.62,
+			"averageErectLengthIn": 5.4,
+			"code": "PG",
+			"namePl": "Papua-Nowa Gwinea"
+		},
+		{
+			"name": "Israel",
+			"averageErectLengthCm": 13.6,
+			"averageErectLengthIn": 5.4,
+			"code": "IL",
+			"namePl": "Izrael"
+		},
+		{
+			"name": "Finland",
+			"averageErectLengthCm": 13.59,
+			"averageErectLengthIn": 5.4,
+			"code": "FI",
+			"namePl": "Finlandia"
+		},
+		{
+			"name": "Spain",
+			"averageErectLengthCm": 13.58,
+			"averageErectLengthIn": 5.3,
+			"code": "ES",
+			"namePl": "Hiszpania"
+		},
+		{
+			"name": "Montenegro",
+			"averageErectLengthCm": 13.56,
+			"averageErectLengthIn": 5.3,
+			"code": "ME",
+			"namePl": "Czarnogóra"
+		},
+		{
+			"name": "Ethiopia",
+			"averageErectLengthCm": 13.53,
+			"averageErectLengthIn": 5.3,
+			"code": "ET",
+			"namePl": "Etiopia"
+		},
+		{
+			"name": "Jordan",
+			"averageErectLengthCm": 13.5,
+			"averageErectLengthIn": 5.3,
+			"code": "JO",
+			"namePl": "Jordania"
+		},
+		{
+			"name": "Turkmenistan",
+			"averageErectLengthCm": 13.48,
+			"averageErectLengthIn": 5.3,
+			"code": "TM",
+			"namePl": "Turkmenistan"
+		},
+		{
+			"name": "Kazakhstan",
+			"averageErectLengthCm": 13.46,
+			"averageErectLengthIn": 5.3,
+			"code": "KZ",
+			"namePl": "Kazachstan"
+		},
+		{
+			"name": "Uzbekistan",
+			"averageErectLengthCm": 13.43,
+			"averageErectLengthIn": 5.3,
+			"code": "UZ",
+			"namePl": "Uzbekistan"
+		},
+		{
+			"name": "Suriname",
+			"averageErectLengthCm": 13.34,
+			"averageErectLengthIn": 5.3,
+			"code": "SR",
+			"namePl": "Surinam"
+		},
+		{
+			"name": "Guatemala",
+			"averageErectLengthCm": 13.24,
+			"averageErectLengthIn": 5.2,
+			"code": "GT",
+			"namePl": "Gwatemala"
+		},
+		{
+			"name": "New Caledonia",
+			"averageErectLengthCm": 13.24,
+			"averageErectLengthIn": 5.2,
+			"code": "NC",
+			"namePl": "Nowa Kaledonia"
+		},
+		{
+			"name": "Solomon Islands",
+			"averageErectLengthCm": 13.14,
+			"averageErectLengthIn": 5.2,
+			"code": "SB",
+			"namePl": "Wyspy Salomona"
+		},
+		{
+			"name": "Armenia",
+			"averageErectLengthCm": 13.12,
+			"averageErectLengthIn": 5.2,
+			"code": "AM",
+			"namePl": "Armenia"
+		},
+		{
+			"name": "Syria",
+			"averageErectLengthCm": 13.1,
+			"averageErectLengthIn": 5.2,
+			"code": "SY",
+			"namePl": "Syria"
+		},
+		{
+			"name": "Tonga",
+			"averageErectLengthCm": 12.94,
+			"averageErectLengthIn": 5.1,
+			"code": "TO",
+			"namePl": "Tonga"
+		},
+		{
+			"name": "India",
+			"averageErectLengthCm": 12.93,
+			"averageErectLengthIn": 5.1,
+			"code": "IN",
+			"namePl": "Indie"
+		},
+		{
+			"name": "Bahrain",
+			"averageErectLengthCm": 12.93,
+			"averageErectLengthIn": 5.1,
+			"code": "BH",
+			"namePl": "Bahrajn"
+		},
+		{
+			"name": "China",
+			"averageErectLengthCm": 12.9,
+			"averageErectLengthIn": 5.1,
+			"code": "CN",
+			"namePl": "Chiny"
+		},
+		{
+			"name": "Samoa",
+			"averageErectLengthCm": 12.87,
+			"averageErectLengthIn": 5.1,
+			"code": "WS",
+			"namePl": "Samoa"
+		},
+		{
+			"name": "Oman",
+			"averageErectLengthCm": 12.85,
+			"averageErectLengthIn": 5.1,
+			"code": "OM",
+			"namePl": "Oman"
+		},
+		{
+			"name": "Ireland",
+			"averageErectLengthCm": 12.78,
+			"averageErectLengthIn": 5,
+			"code": "IE",
+			"namePl": "Irlandia"
+		},
+		{
+			"name": "Mongolia",
+			"averageErectLengthCm": 12.77,
+			"averageErectLengthIn": 5,
+			"code": "MN",
+			"namePl": "Mongolia"
+		},
+		{
+			"name": "Romania",
+			"averageErectLengthCm": 12.73,
+			"averageErectLengthIn": 5,
+			"code": "RO",
+			"namePl": "Rumunia"
+		},
+		{
+			"name": "El Salvador",
+			"averageErectLengthCm": 12.71,
+			"averageErectLengthIn": 5,
+			"code": "SV",
+			"namePl": "Salwador"
+		},
+		{
+			"name": "Yemen",
+			"averageErectLengthCm": 12.7,
+			"averageErectLengthIn": 5,
+			"code": "YE",
+			"namePl": "Jemen"
+		},
+		{
+			"name": "Japan",
+			"averageErectLengthCm": 12.6,
+			"averageErectLengthIn": 5,
+			"code": "JP",
+			"namePl": "Japonia"
+		},
+		{
+			"name": "United Arab Emirates",
+			"averageErectLengthCm": 12.54,
+			"averageErectLengthIn": 4.9,
+			"code": "AE",
+			"namePl": "Zjednoczone Emiraty Arabskie"
+		},
+		{
+			"name": "Italy",
+			"averageErectLengthCm": 12.5,
+			"averageErectLengthIn": 4.9,
+			"code": "IT",
+			"namePl": "Włochy"
+		},
+		{
+			"name": "Taiwan",
+			"averageErectLengthCm": 12.5,
+			"averageErectLengthIn": 4.9,
+			"code": "TW",
+			"namePl": "Tajwan"
+		},
+		{
+			"name": "Qatar",
+			"averageErectLengthCm": 12.41,
+			"averageErectLengthIn": 4.9,
+			"code": "QA",
+			"namePl": "Katar"
+		},
+		{
+			"name": "Saudi Arabia",
+			"averageErectLengthCm": 12.4,
+			"averageErectLengthIn": 4.9,
+			"code": "SA",
+			"namePl": "Arabia Saudyjska"
+		},
+		{
+			"name": "Honduras",
+			"averageErectLengthCm": 12.4,
+			"averageErectLengthIn": 4.9,
+			"code": "HN",
+			"namePl": "Honduras"
+		},
+		{
+			"name": "Greece",
+			"averageErectLengthCm": 12.18,
+			"averageErectLengthIn": 4.8,
+			"code": "GR",
+			"namePl": "Grecja"
+		},
+		{
+			"name": "Cyprus",
+			"averageErectLengthCm": 12.17,
+			"averageErectLengthIn": 4.8,
+			"code": "CY",
+			"namePl": "Cypr"
+		},
+		{
+			"name": "Indonesia",
+			"averageErectLengthCm": 11.67,
+			"averageErectLengthIn": 4.6,
+			"code": "ID",
+			"namePl": "Indonezja"
+		},
+		{
+			"name": "Iran",
+			"averageErectLengthCm": 11.58,
+			"averageErectLengthIn": 4.6,
+			"code": "IR",
+			"namePl": "Iran"
+		},
+		{
+			"name": "Tanzania",
+			"averageErectLengthCm": 11.5,
+			"averageErectLengthIn": 4.5,
+			"code": "TZ",
+			"namePl": "Tanzania"
+		},
+		{
+			"name": "Pakistan",
+			"averageErectLengthCm": 11.4,
+			"averageErectLengthIn": 4.5,
+			"code": "PK",
+			"namePl": "Pakistan"
+		},
+		{
+			"name": "Kuwait",
+			"averageErectLengthCm": 11.38,
+			"averageErectLengthIn": 4.5,
+			"code": "KW",
+			"namePl": "Kuwejt"
+		},
+		{
+			"name": "Iraq",
+			"averageErectLengthCm": 11.35,
+			"averageErectLengthIn": 4.5,
+			"code": "IQ",
+			"namePl": "Irak"
+		},
+		{
+			"name": "Bangladesh",
+			"averageErectLengthCm": 11.2,
+			"averageErectLengthIn": 4.4,
+			"code": "BD",
+			"namePl": "Bangladesz"
+		},
+		{
+			"name": "Hong Kong",
+			"averageErectLengthCm": 11.19,
+			"averageErectLengthIn": 4.4,
+			"code": "HK",
+			"namePl": "Hongkong"
+		},
+		{
+			"name": "Singapore",
+			"averageErectLengthCm": 11.16,
+			"averageErectLengthIn": 4.4,
+			"code": "SG",
+			"namePl": "Singapur"
+		},
+		{
+			"name": "Bhutan",
+			"averageErectLengthCm": 11.12,
+			"averageErectLengthIn": 4.4,
+			"code": "BT",
+			"namePl": "Bhutan"
+		},
+		{
+			"name": "Philippines",
+			"averageErectLengthCm": 10.85,
+			"averageErectLengthIn": 4.3,
+			"code": "PH",
+			"namePl": "Filipiny"
+		},
+		{
+			"name": "South Korea",
+			"averageErectLengthCm": 10.8,
+			"averageErectLengthIn": 4.3,
+			"code": "KR",
+			"namePl": "Korea Południowa"
+		},
+		{
+			"name": "Sri Lanka",
+			"averageErectLengthCm": 10.18,
+			"averageErectLengthIn": 4,
+			"code": "LK",
+			"namePl": "Sri Lanka"
+		},
+		{
+			"name": "Vietnam",
+			"averageErectLengthCm": 10.15,
+			"averageErectLengthIn": 4,
+			"code": "VN",
+			"namePl": "Wietnam"
+		},
+		{
+			"name": "Laos",
+			"averageErectLengthCm": 10.14,
+			"averageErectLengthIn": 4,
+			"code": "LA",
+			"namePl": "Laos"
+		},
+		{
+			"name": "Myanmar",
+			"averageErectLengthCm": 10.1,
+			"averageErectLengthIn": 4,
+			"code": "MM",
+			"namePl": "Mjanma (Birma)"
+		},
+		{
+			"name": "Nepal",
+			"averageErectLengthCm": 9.98,
+			"averageErectLengthIn": 3.9,
+			"code": "NP",
+			"namePl": "Nepal"
+		},
+		{
+			"name": "Cambodia",
+			"averageErectLengthCm": 9.84,
+			"averageErectLengthIn": 3.9,
+			"code": "KH",
+			"namePl": "Kambodża"
+		},
+		{
+			"name": "North Korea",
+			"averageErectLengthCm": 9.6,
+			"averageErectLengthIn": 3.8,
+			"code": "KP",
+			"namePl": "Korea Północna"
+		},
+		{
+			"name": "Thailand",
+			"averageErectLengthCm": 9.43,
+			"averageErectLengthIn": 3.7,
+			"code": "TH",
+			"namePl": "Tajlandia"
+		}
+	]
+}
